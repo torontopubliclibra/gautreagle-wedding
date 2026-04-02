@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import RSVPSection from "./RSVPSection";
 
-const PASSWORD = "popcorn";
+const PASSWORD = "alldressed";
 const WEDDING_DATE = new Date(2026, 8, 6); // September 6, 2026
 
 const getDaysUntilWedding = () => {
