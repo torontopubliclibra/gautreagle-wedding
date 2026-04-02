@@ -228,7 +228,7 @@ section#protected {
 }
 
 @media only screen and (max-width: 1080px) {
-  section {
+  section, section#protected {
     width: 100vw;
     border-left: none;
     border-right: none;
