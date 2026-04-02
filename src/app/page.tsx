@@ -75,9 +75,9 @@ export default function Home() {
 
   const tabs = [
     { key: "home", label: "Home" },
-    { key: "weekend", label: "The Weekend" },
-    { key: "day", label: "The Big Day" },
-    { key: "directions", label: "Directions & Accommodation" },
+    { key: "weekend", label: "Weekend" },
+    { key: "day", label: "Wedding" },
+    { key: "directions", label: "Directions" },
     { key: "rsvp", label: "RSVP" },
   ];
 

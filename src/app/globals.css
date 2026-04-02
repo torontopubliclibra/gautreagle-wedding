@@ -253,7 +253,6 @@ footer .wrapper p {
 }
 @media only screen and (max-width: 768px) {
   footer {
-    width: 100%;
     margin: 0 0 30px;
   }
 }
@@ -316,12 +315,14 @@ footer .wrapper p {
 
 .syd-dana-pic {
   width: 500px;
+  max-width: 100%;
   height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
   border: solid var(--color-bg) 3px;
   border-radius: 8px;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .venue-image {
