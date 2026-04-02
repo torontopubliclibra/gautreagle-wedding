@@ -26,6 +26,7 @@
   --color-border-light: rgba(164, 174, 197, 0.8);
   --color-pink: rgba(213, 186, 204, 0.8);
   --color-blue: #A4AEC5;
+  --color-blue-light: #c6cdde;
   font-family: var(--font-body);
   font-size: 18px;
 }
@@ -156,6 +157,14 @@ button {
   align-items: center;
   gap: 0.5rem;
   cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+  background: white;
+  border: solid var(--color-border) 3px;
+  border-radius: 4px;
+}
+button:hover {
+  background: var(--color-blue-light);
 }
 
 textarea {
@@ -182,7 +191,7 @@ footer {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
   .wrapper {
     width: 95%;
   }
@@ -200,7 +209,6 @@ section {
   box-shadow: 5px 5px 5px rgba(43, 45, 60, 0.05), -5px -5px 5px rgba(43, 45, 60, 0.05), -5px 5px 5px rgba(43, 45, 60, 0.05), 5px -5px 5px rgba(43, 45, 60, 0.05);
   width: 75vw;
   max-width: 1250px;
-  min-height: 400px;
   margin: 0 auto 25px;
   padding: 2rem;
 }
@@ -213,12 +221,13 @@ section p {
 
 section#protected {
   border: solid var(--color-border) 3px;
-  max-width: 600px;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 3rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
   section {
     width: 100vw;
     border-left: none;
@@ -229,17 +238,12 @@ section#protected {
 .pigeons {
   margin-top: 2rem;
   margin-bottom: -0.5rem;
+  user-select: none;
 }
 
 .header-title {
   margin-bottom: 1.5rem;
-}
-
-#protected .header-title {
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
+  cursor: pointer;
 }
 
 .password-form {
@@ -260,7 +264,7 @@ footer {
   font-size: 1rem;
   font-weight: 500;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
   footer {
     margin: 0 0 30px;
   }
@@ -328,7 +332,7 @@ footer {
   height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  border: solid var(--color-bg) 3px;
+  border: solid var(--color-border-light) 3px;
   border-radius: 8px;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -374,11 +378,7 @@ footer {
   padding: 0.5rem 1rem;
   width: 100%;
   justify-content: center;
-  font-size: 1rem;
-  border: solid var(--color-border) 3px;
-  border-radius: 4px;
   cursor: pointer;
-  transition: background 0.2s;
 }
 .rsvpButton:disabled {
   opacity: 0.7;
@@ -434,6 +434,8 @@ footer {
 }
 .rsvpSelectWrap select {
   width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .rsvpDietaryBlock,
@@ -453,6 +455,7 @@ footer {
   gap: 0.5rem;
   padding: 4px 0;
   height: 2rem;
+  cursor: pointer;
 }
 
 .rsvpAllergyInput {

@@ -71,7 +71,7 @@ export default function RSVPSection() {
   if (step === "email") {
     return (
       <div>
-        <h2 className="rsvpTitle">RSVP</h2>
+        <h2 className="rsvpTitle">R.S.V.P.</h2>
         <form onSubmit={handleEmail} className="rsvpEmailForm">
           <label htmlFor="rsvp-email">Please enter your email address below.</label>
           <input
@@ -126,10 +126,10 @@ export default function RSVPSection() {
         if (res.ok) {
           setSubmitted(true);
         } else {
-          setMessage("There was a problem submitting your RSVP. Please try again later.");
+          setMessage("There was a problem submitting your R.S.V.P.. Please try again later.");
         }
       } catch {
-        setMessage("There was a problem submitting your RSVP. Please try again later.");
+        setMessage("There was a problem submitting your R.S.V.P.. Please try again later.");
       }
       setSubmitting(false);
     };
@@ -137,7 +137,7 @@ export default function RSVPSection() {
     if (submitted) {
       return (
         <div>
-          <h2>Thank you for your RSVP!</h2>
+          <h2>Thank you for your R.S.V.P.!</h2>
           <p>We look forward to seeing you.</p>
         </div>
       );
@@ -151,10 +151,10 @@ export default function RSVPSection() {
     if (guest.submitted) {
       return (
         <>
-          <h2 className="rsvpTitle">RSVP for {guestHeading}</h2>
+          <h2 className="rsvpTitle">R.S.V.P. for {guestHeading}</h2>
           <small>Not you? Click here to <a href="#" onClick={() => { setStep("email"); setGuest(null); setForm([]); setEmail(""); setSubmitted(false); setMessage(""); localStorage.removeItem("rsvp_guest"); const url = new URL(window.location.href); url.searchParams.delete("email"); window.history.replaceState({}, "", url); }}>enter a different email</a>.</small>
           <div className="rsvpGuestBlock submitted">
-            <p>We&apos;ve already received your RSVP.</p>
+            <p>We&apos;ve already received your R.S.V.P.</p>
             <p>If you need to make any changes, please <a href="mailto:gautreagle@gmail.com">send us an email</a>.</p>
           </div>
         </>
@@ -163,7 +163,7 @@ export default function RSVPSection() {
 
     return (
       <div>
-        <h2 className="rsvpTitle">RSVP for {guestHeading}</h2>
+        <h2 className="rsvpTitle">R.S.V.P. for {guestHeading}</h2>
         <small>Not you? Click here to <a href="#" onClick={() => { setStep("email"); setGuest(null); setForm([]); setEmail(""); setSubmitted(false); setMessage(""); localStorage.removeItem("rsvp_guest"); const url = new URL(window.location.href); url.searchParams.delete("email"); window.history.replaceState({}, "", url); }}>enter a different email</a>.</small>
         <form onSubmit={handleSubmit} className="rsvpForm">
           {form.map((g, i) => (
@@ -249,7 +249,7 @@ export default function RSVPSection() {
             </div>
           ))}
           <button type="submit" disabled={submitting} className="rsvpButton">
-            {submitting ? "Submitting..." : "Submit your RSVP"}
+            {submitting ? "Submitting..." : "Submit your R.S.V.P."}
           </button>
           {message && <p className="rsvpError">{message}</p>}
         </form>
@@ -259,7 +259,7 @@ export default function RSVPSection() {
   if (step === "error") {
     return (
       <div>
-        <h2 className="rsvpTitle">RSVP</h2>
+        <h2 className="rsvpTitle">R.S.V.P.</h2>
         <div className="rsvpGuestBlock submitted">
           <p className="rsvpError">{error}</p>
           <button onClick={() => { setStep("email"); setError(""); }} className="rsvpButton" style={{ marginTop: "0.5rem" }}>Enter a different email</button>

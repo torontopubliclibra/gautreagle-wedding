@@ -16,10 +16,10 @@ const getDaysUntilWedding = () => {
   return Math.ceil(timeDiff / (1000 * 3600 * 24));
 };
 
-const Header = () => (
+const Header = ({ onTitleClick }: { onTitleClick?: () => void }) => (
   <div className="wrapper">
     <Image src="/pigeons-2.png" className="pigeons" alt="pigeons" width={100} height={50} />
-    <h1 className="header-title">
+    <h1 className="header-title" onClick={onTitleClick}>
       Syd &amp; Dana get hitched
     </h1>
   </div>
@@ -62,8 +62,9 @@ export default function Home() {
 
   if (!entered) {
     return (
+      <>
+      <Header />
       <section id="protected">
-        <Header />
         <div className="wrapper">
           <form onSubmit={handleSubmit} className="password-form">
            <input
@@ -80,6 +81,7 @@ export default function Home() {
          </form>
         </div>
       </section>
+      </>
     );
   }
 
@@ -88,12 +90,12 @@ export default function Home() {
     { key: "weekend", label: "Weekend" },
     { key: "day", label: "Wedding" },
     { key: "directions", label: "Directions" },
-    { key: "rsvp", label: "RSVP" },
+    { key: "rsvp", label: "R.S.V.P." },
   ];
 
   return (
     <>
-      <Header />
+      <Header onTitleClick={() => setTab("home")} />
       <nav className="tabs">
           {tabs.map(t => (
           <button
