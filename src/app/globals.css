@@ -211,6 +211,8 @@ section p {
 }
 
 section#protected {
+  border: solid var(--color-border) 3px;
+  border-radius: 8px;
   max-width: 500px;
 }
 
@@ -240,16 +242,6 @@ footer {
   margin: 20px auto 40px;
   font-size: 1rem;
   font-weight: 500;
-}
-footer .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-footer .wrapper p {
-  margin: 0;
 }
 @media only screen and (max-width: 768px) {
   footer {

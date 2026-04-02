@@ -73,7 +73,7 @@ export default function RSVPSection() {
       <div>
         <h2 className="rsvpTitle">RSVP</h2>
         <form onSubmit={handleEmail} className="rsvpEmailForm">
-          <label htmlFor="rsvp-email">Enter your email to RSVP:</label>
+          <label htmlFor="rsvp-email">Please enter your email address below.</label>
           <input
             id="rsvp-email"
             type="email"
