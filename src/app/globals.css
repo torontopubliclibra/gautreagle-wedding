@@ -78,6 +78,8 @@ body {
 
 a {
   color: var(--color-text);
+  text-decoration: underline;
+  cursor: pointer;
 }
 a:hover {
   transition: color 1s, font-style 1s;
@@ -212,8 +214,13 @@ section {
 
 section p {
   font-size: 1.15rem;
-  max-width: 90%;
+  line-height: 1.5;
+  max-width: 95%;
   margin: 0 auto;
+}
+
+.strong {
+  font-weight: 600;
 }
 
 section#protected {

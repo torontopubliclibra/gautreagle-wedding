@@ -22,10 +22,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         {children}
+        <footer>
+          <p>This website was designed and developed by <a href="https://danateagle.com" target="_blank" rel="noopener noreferrer">Dana Teagle</a> and <a href="https://sydneygautreau.com" target="_blank" rel="noopener noreferrer">Sydney Gautreau</a> in Toronto, Ontario.</p>
+        </footer>
       </body>
-      <footer>
-        <p>Website designed and developed by <a href="https://danateagle.com" target="_blank" rel="noopener noreferrer">Dana Teagle</a> and <a href="https://sydneygautreau.com" target="_blank" rel="noopener noreferrer">Sydney Gautreau</a>.</p>
-      </footer>
     </html>
   );
 }
