@@ -5,6 +5,16 @@ import Image from "next/image";
 import RSVPSection from "./RSVPSection";
 
 const PASSWORD = "popcorn";
+const WEDDING_DATE = new Date(2026, 8, 6); // September 6, 2026
+
+const getDaysUntilWedding = () => {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const weddingDate = new Date(WEDDING_DATE);
+  weddingDate.setHours(0, 0, 0, 0);
+  const timeDiff = weddingDate.getTime() - today.getTime();
+  return Math.ceil(timeDiff / (1000 * 3600 * 24));
+};
 
 const Header = () => (
   <div className="wrapper">
@@ -101,7 +111,7 @@ export default function Home() {
         {tab === "home" && (
           <div>
             <h2 className="section-title">
-              Join us in celebrating our special day!
+              Join us in celebrating our special day! Only {getDaysUntilWedding()} days to go!
             </h2>
             <Image src="/boat-2.jpeg" alt="Syd & Dana on a boat at sunset, with the CN Tower in the background" width={795} height={1200} className="syd-dana-pic" />
           </div>
@@ -112,7 +122,6 @@ export default function Home() {
               The Big Day
             </h2>
             <p className="venue-details">Sunday, September 6th, 2026<br/><a href="https://truehistorybeer.com" target="_blank" rel="noopener noreferrer">True History Brewing</a><br/>Toronto, Ontario</p>
-            <br />
             <Image src="/taproom.webp" alt="venue" width={800} height={500} className="venue-image" />
           </div>
         )}
@@ -130,7 +139,6 @@ export default function Home() {
               Directions & Accommodation
             </h2>
             <p><a href="https://truehistorybeer.com" target="_blank" rel="noopener noreferrer">True History Brewing</a> is located at <a href="https://maps.app.goo.gl/uyUZFimEhq7YmVrD8" target="_blank" rel="noopener noreferrer">1154 St. Clair Avenue West</a>, near the intersection of Dufferin and St. Clair. Those travelling by TTC can connect from subway lines via the <a href="https://www.ttc.ca/routes-and-schedules/29/0" target="_blank" rel="noopener noreferrer">29</a> or  <a href="https://www.ttc.ca/routes-and-schedules/929/0" target="_blank" rel="noopener noreferrer">929</a> Dufferin buses, or the <a href="https://www.ttc.ca/routes-and-schedules/512/0" target="_blank" rel="noopener noreferrer">512</a> St. Clair streetcar.</p>
-            <br />
             <iframe src="https://www.google.com/maps?q=True+History+Brewing,+Toronto,+ON&output=embed" width="100%" height="400" style={{border: "solid #9fa696 3px", borderRadius: '8px', marginTop: '1.5rem', marginBottom: '0.5rem'}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
         )}

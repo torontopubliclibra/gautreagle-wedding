@@ -196,24 +196,34 @@ section {
     repeating-linear-gradient(135deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 2px, transparent 2px, transparent 8px),
     url('https://www.transparenttextures.com/patterns/paper-fibers.png');
   background-blend-mode: lighten;
-  border-top: 3px solid #bdb6a7;
-  border-bottom: 3px solid #bdb6a7;
-  width: 100vw;
-  min-height: 500px;
+  border: solid var(--color-border) 3px;
+  box-shadow: 5px 5px 5px rgba(43, 45, 60, 0.05), -5px -5px 5px rgba(43, 45, 60, 0.05), -5px 5px 5px rgba(43, 45, 60, 0.05), 5px -5px 5px rgba(43, 45, 60, 0.05);
+  width: 75vw;
+  max-width: 1250px;
+  min-height: 400px;
   margin: 0 auto 25px;
   padding: 2rem;
 }
 
 section p {
   font-size: 1.15rem;
-  max-width: 1260px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
 section#protected {
   border: solid var(--color-border) 3px;
-  border-radius: 8px;
-  max-width: 500px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    width: 100vw;
+    border-left: none;
+    border-right: none;
+  }
 }
 
 .pigeons {
@@ -223,6 +233,13 @@ section#protected {
 
 .header-title {
   margin-bottom: 1.5rem;
+}
+
+#protected .header-title {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 .password-form {
@@ -261,8 +278,8 @@ footer {
   font-family: var(--font-body);
   font-size: 1.1rem;
   color: var(--color-text);
-  background: var(--color-paper);
-  border: 3px solid var(--color-border-light);
+  background: var(--color-paper-dark);
+  border: 3px solid var(--color-border);
   border-bottom: none;
   border-radius: 14px 14px 0 0;
   padding: 10px 32px 12px;
@@ -274,11 +291,11 @@ footer {
   z-index: 1;
 }
 .tab:not(.active):hover {
-  background: var(--color-paper-dark);
-  color: var(--color-accent);
+  background: var(--color-paper);
   box-shadow: 0 2px 8px 0 rgba(43,45,60,0.06);
 }
 .tab.active {
+  background: var(--color-paper);
   color: var(--color-text);
   font-weight: 600;
   box-shadow: 0 4px 16px 0 rgba(43,45,60,0.10);
@@ -332,6 +349,7 @@ footer {
   text-align: center;
   font-size: 1.5rem;
   line-height: 1.25;
+  margin-bottom: 0.5rem;
 }
 
 .text-center {
