@@ -113,12 +113,12 @@ export default function Home() {
         {tab === "home" && (
           <div>
             <h2 className="section-title">
-              Join us in celebrating our special day! Only {getDaysUntilWedding()} days to go!
+              Only {getDaysUntilWedding()} days to go!
             </h2>
             <br />
-            <p>We would love to have you at our wedding on <span className="strong">Sunday, September 6th, 2026.</span></p>
+            <p>Please join us in celebrating our special day! We would love to have you at our wedding ceremony on <span className="strong">Sunday, September 6th, 2026.</span></p>
             <br />
-            <p>In the tabs on this website, you&apos;ll find all the information you need about <a onClick={() => setTab("day")}>our big day</a>, some <a onClick={() => setTab("weekend")}>events on the Friday and Saturday</a>, as well as the <a onClick={() => setTab("directions")}>directions and accommodation recommendations</a>, and <a onClick={() => setTab("rsvp")}>our R.S.V.P. form</a>. Please fill out the form by <span className="strong">June 6 at the latest.</span></p>
+            <p>In the tabs on this website, you&apos;ll find all the information you need about <a onClick={() => setTab("day")}>our big day</a>, some <a onClick={() => setTab("weekend")}>events on the Friday and Saturday</a>, as well as the <a onClick={() => setTab("directions")}>directions and accommodation recommendations</a>, and <a onClick={() => setTab("rsvp")}>our R.S.V.P. form</a>. Please fill out the form by <span className="strong">May 15 at the latest.</span></p>
             <br />
             <Image src="/boat-2.jpeg" alt="Syd & Dana on a boat at sunset, with the CN Tower in the background" width={795} height={1200} className="syd-dana-image" />
           </div>
