@@ -246,6 +246,7 @@ section p {
 section#protected {
   border: solid var(--color-border) 3px;
   max-width: 750px;
+  min-height: auto;
   margin-left: auto;
   margin-right: auto;
   padding-top: 3rem;
@@ -382,12 +383,16 @@ footer {
   margin-bottom: 1rem;
 }
 
-.venue-details {
+.venue-details, .date {
   font-family: var(--font-italic);
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 1.25;
   margin-bottom: 0.5rem;
+}
+
+.date {
+  font-size: 1.75rem;
 }
 
 .text-center {

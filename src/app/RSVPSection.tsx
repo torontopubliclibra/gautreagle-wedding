@@ -244,6 +244,9 @@ export default function RSVPSection() {
                       Also attending Saturday afternoon activity
                     </label>
                   </div>
+                  { guest.guests.length === 1 && (
+                    <><hr/><small>We aren&apos;t able to accommodate plus ones, but we really hope to have you and encourage you to mingle with our other beloved guests.</small></>
+                  )}
                 </>
               )}
             </div>

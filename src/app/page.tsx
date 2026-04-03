@@ -114,7 +114,7 @@ export default function Home() {
             <h2 className="section-title">
               Only {getDaysUntilWedding()} days to go!
             </h2>
-            <p>Please join us in celebrating our special day! We would love to have you at our wedding ceremony on <span className="strong">Sunday, September 6th, 2026.</span></p>
+            <p>We would love to have you at our wedding ceremony on <span className="strong">Sunday, September 6th, 2026.</span></p>
             <br />
             <p>In the tabs above, you&apos;ll find all the information you need about <a onClick={() => setTab("day")}>our big day</a>, some <a onClick={() => setTab("weekend")}>events on the Friday and Saturday</a>, as well as the <a onClick={() => setTab("directions")}>directions and accommodation recommendations</a>, and <a onClick={() => setTab("rsvp")}>our R.S.V.P. form</a>. Please fill out the form by <span className="strong">May 15 at the latest.</span></p>
             <br />
@@ -126,14 +126,18 @@ export default function Home() {
             <h2 className="section-title">
               The Big Day
             </h2>
-            <p className="venue-details">Sunday, September 6th, 2026<br/><a href="https://truehistorybeer.com" target="_blank" rel="noopener noreferrer">True History Brewing</a><br/>Toronto, Ontario</p>
+            <p className="date">Sunday September 6th, 2026</p>
+            <p className="venue-details"><a href="https://truehistorybeer.com" target="_blank" rel="noopener noreferrer">True History Brewing</a>, Toronto, Ontario (<a onClick={() => setTab("directions")}>directions</a>)</p>
+            <hr />
+            <p>Please arrive at 4:30pm. The ceremony will begin at 5pm.</p>
+            <br />
             <Image src="/taproom.webp" alt="True History Brewing taproom" width={800} height={500} className="venue-image" />
           </div>
         )}
         {tab === "weekend" && (
           <div>
             <h2 className="section-title">
-              The Weekend
+              Friday & Saturday Events
             </h2>
             <p className="text-center">Information about the weekend events will go here.</p>
           </div>
