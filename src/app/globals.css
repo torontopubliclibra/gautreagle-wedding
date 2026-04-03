@@ -127,6 +127,13 @@ h3 {
   font-size: 1.15rem;
   line-height: 1.5;
 }
+
+@media only screen and (max-width: 768px) {
+  h3 {
+    width: 100%;
+  }
+}
+
 h3 .small {
   display: block;
   font-size: 1rem;
@@ -224,6 +231,12 @@ section p {
   line-height: 1.5;
   max-width: 95%;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  section p {
+    max-width: 100%;
+  }
 }
 
 .strong {
