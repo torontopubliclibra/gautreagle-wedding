@@ -272,7 +272,7 @@ section#protected {
 
 @media only screen and (max-width: 768px) {
   .header-title {
-    max-width: 375px;
+    max-width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
@@ -356,7 +356,7 @@ footer {
   font-weight: 400;
   font-size: 2rem;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 1rem;
 }
 
 .syd-dana-image {

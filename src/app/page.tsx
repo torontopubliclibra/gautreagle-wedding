@@ -86,7 +86,6 @@ export default function Home() {
   }
 
   const tabs = [
-    { key: "home", label: "Home" },
     { key: "weekend", label: "Weekend" },
     { key: "day", label: "Wedding" },
     { key: "directions", label: "Directions" },
@@ -115,7 +114,6 @@ export default function Home() {
             <h2 className="section-title">
               Only {getDaysUntilWedding()} days to go!
             </h2>
-            <br />
             <p>Please join us in celebrating our special day! We would love to have you at our wedding ceremony on <span className="strong">Sunday, September 6th, 2026.</span></p>
             <br />
             <p>In the tabs on this website, you&apos;ll find all the information you need about <a onClick={() => setTab("day")}>our big day</a>, some <a onClick={() => setTab("weekend")}>events on the Friday and Saturday</a>, as well as the <a onClick={() => setTab("directions")}>directions and accommodation recommendations</a>, and <a onClick={() => setTab("rsvp")}>our R.S.V.P. form</a>. Please fill out the form by <span className="strong">May 15 at the latest.</span></p>
