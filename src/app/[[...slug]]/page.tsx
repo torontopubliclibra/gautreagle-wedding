@@ -149,11 +149,11 @@ export default function Home() {
             <h2 className="section-title">
               Friday & Saturday Events
             </h2>
-            <h3>Friday Evening Boat Ride</h3>
-            <p className="text-center">Information about the Friday evening boat ride will go here.</p>
+            <h3>Friday, September 4th, 2026</h3>
+            <p className="text-center">Information about the Friday boat ride will go here.</p>
             <hr />
-            <h3>Saturday Backyard BBQ</h3>
-            <p className="text-center">Information about the Saturday backyard BBQ will go here.</p>
+            <h3>Saturday, September 5th, 2026</h3>
+            <p className="text-center">Information about the Saturday backyard event at Tannis &amp; Pierre&apos;s will go here.</p>
           </div>
         )}
         {tab === "directions" && (

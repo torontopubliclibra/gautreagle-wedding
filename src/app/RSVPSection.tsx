@@ -16,8 +16,8 @@ interface FormEntry {
   allergiesList?: string;
   celiac?: boolean;
   sober?: boolean;
-  fridayBoat?: boolean;
-  saturdayBBQ?: boolean;
+  friday?: boolean;
+  saturday?: boolean;
 }
 
 export default function RSVPSection() {
@@ -91,7 +91,7 @@ export default function RSVPSection() {
     const FORMSPREE_ENDPOINT = "https://formspree.io/f/xwvwwdjp";
 
     if (form.length === 0) {
-      setForm(guest.guests.map((g: string) => ({ name: g, attending: "", allergies: false, allergiesList: "", celiac: false, sober: false, fridayBoat: false, saturdayBBQ: false })));
+      setForm(guest.guests.map((g: string) => ({ name: g, attending: "", allergies: false, allergiesList: "", celiac: false, sober: false, friday: false, saturday: false })));
     }
 
     const handleFormChange = (idx: number, field: string, value: string | boolean) => {
@@ -104,18 +104,16 @@ export default function RSVPSection() {
       setMessage("");
       const data: Record<string, string> = {
         email: guest.email[0],
-        all_emails: guest.email.join(", "),
-        main_guest: guest.guests[0],
+        emails: guest.email.join(", "),
       };
       form.forEach((g, i) => {
-        data[`guest_${i+1}_name`] = g.name;
-        data[`guest_${i+1}_attending`] = g.attending;
-        data[`guest_${i+1}_allergies`] = g.allergies ? "yes" : "no";
-        data[`guest_${i+1}_allergiesList`] = g.allergiesList || "";
-        data[`guest_${i+1}_celiac`] = g.celiac ? "yes" : "no";
-        data[`guest_${i+1}_sober`] = g.sober ? "yes" : "no";
-        data[`guest_${i+1}_fridayBoat`] = g.fridayBoat ? "yes" : "no";
-        data[`guest_${i+1}_saturdayBBQ`] = g.saturdayBBQ ? "yes" : "no";
+        data[`guest${i+1}`] = g.name;
+        data[`guest${i+1}_attending`] = g.attending;
+        if (g.allergies) data[`guest${i+1}_allergiesList`] = g.allergiesList || "";
+        if (g.celiac) data[`guest${i+1}_celiac`] = g.celiac ? "yes" : "no";
+        if (g.sober) data[`guest${i+1}_sober`] = g.sober ? "yes" : "no";
+        if (g.friday) data[`guest${i+1}_friday`] = g.friday ? "yes" : "no";
+        if (g.saturday) data[`guest${i+1}_saturday`] = g.saturday ? "yes" : "no";
       });
       try {
         const res = await fetch(FORMSPREE_ENDPOINT, {
@@ -138,6 +136,7 @@ export default function RSVPSection() {
       return (
         <div>
           <h2>Thank you for your R.S.V.P.!</h2>
+          <br />
           <p>We look forward to seeing you.</p>
         </div>
       );
@@ -224,10 +223,10 @@ export default function RSVPSection() {
                       <label className="rsvpOtherActivity">
                       <input
                         type="checkbox"
-                        checked={g.fridayBoat || false}
+                        checked={g.friday || false}
                         onChange={e => {
                           const activity = e.target.checked ? true : false;
-                          handleFormChange(i, "fridayBoat", activity);
+                          handleFormChange(i, "friday", activity);
                         }}
                       />
                       Also attending Friday evening activity
@@ -235,10 +234,10 @@ export default function RSVPSection() {
                     <label className="rsvpOtherActivity">
                       <input
                         type="checkbox"
-                        checked={g.saturdayBBQ || false}
+                        checked={g.saturday || false}
                         onChange={e => {
                           const activity = e.target.checked ? true : false;
-                          handleFormChange(i, "saturdayBBQ", activity);
+                          handleFormChange(i, "saturday", activity);
                         }}
                       />
                       Also attending Saturday afternoon activity
