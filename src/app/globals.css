@@ -396,6 +396,10 @@ footer {
   text-align: center;
 }
 
+.rsvpError {
+  margin-top: 1rem;
+}
+
 .rsvpEmailForm {
   display: flex;
   flex-direction: column;
