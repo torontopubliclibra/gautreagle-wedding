@@ -103,7 +103,8 @@ export default function RSVPSection() {
       setSubmitting(true);
       setMessage("");
       const data: Record<string, string> = {
-        email: guest.email.join(", "),
+        email: guest.email[0],
+        all_emails: guest.email.join(", "),
         main_guest: guest.guests[0],
       };
       form.forEach((g, i) => {
