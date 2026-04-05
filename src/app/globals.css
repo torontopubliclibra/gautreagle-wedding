@@ -286,7 +286,8 @@ section#protected {
 }
 
 .error-text {
-  color: var(--color-error);
+  margin-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 footer {
