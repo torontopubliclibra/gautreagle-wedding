@@ -88,8 +88,7 @@ export default function RSVPSection() {
     );
   }
   if (step === "form" && guest) {
-    // Replace with your Formspree endpoint
-    const FORMSPREE_ENDPOINT = "https://formspree.io/f/your-form-id";
+    const FORMSPREE_ENDPOINT = "https://formspree.io/f/xwvwwdjp";
 
     if (form.length === 0) {
       setForm(guest.guests.map((g: string) => ({ name: g, attending: "", allergies: false, allergiesList: "", celiac: false, sober: false, fridayBoat: false, saturdayBBQ: false })));
@@ -126,10 +125,10 @@ export default function RSVPSection() {
         if (res.ok) {
           setSubmitted(true);
         } else {
-          setMessage("There was a problem submitting your R.S.V.P.. Please try again later.");
+          setMessage("There was a problem submitting your R.S.V.P. Please try again later.");
         }
       } catch {
-        setMessage("There was a problem submitting your R.S.V.P.. Please try again later.");
+        setMessage("There was a problem submitting your R.S.V.P. Please try again later.");
       }
       setSubmitting(false);
     };

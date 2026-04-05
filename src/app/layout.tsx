@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" href="/pigeons-2.png" as="image" />
+      </head>
       <body>
         {children}
         <footer>
