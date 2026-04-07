@@ -54,7 +54,7 @@ export default function RSVPSection() {
         return;
       }
       const params = new URLSearchParams(window.location.search);
-      const emailParam = params.get("email");
+      const emailParam = params.get("email") || localStorage.getItem("rsvp_email");
       if (emailParam) {
         setEmail(emailParam);
         lookupEmail(emailParam);
@@ -151,7 +151,7 @@ export default function RSVPSection() {
       return (
         <>
           <h2 className="rsvpTitle">R.S.V.P. for {guestHeading}</h2>
-          <small>Not you? Click here to <a href="#" onClick={() => { setStep("email"); setGuest(null); setForm([]); setEmail(""); setSubmitted(false); setMessage(""); localStorage.removeItem("rsvp_guest"); const url = new URL(window.location.href); url.searchParams.delete("email"); window.history.replaceState({}, "", url); }}>enter a different email</a>.</small>
+          <small>Not you? Click here to <a href="#" onClick={() => { setStep("email"); setGuest(null); setForm([]); setEmail(""); setSubmitted(false); setMessage(""); localStorage.removeItem("rsvp_guest"); localStorage.removeItem("rsvp_email"); const url = new URL(window.location.href); url.searchParams.delete("email"); window.history.replaceState({}, "", url); }}>enter a different email</a>.</small>
           <div className="rsvpGuestBlock submitted">
             <p>We&apos;ve already received your R.S.V.P.</p>
             <p>If you need to make any changes, please <a href="mailto:gautreagle@gmail.com">send us an email</a>.</p>
@@ -163,7 +163,7 @@ export default function RSVPSection() {
     return (
       <div>
         <h2 className="rsvpTitle">R.S.V.P. for {guestHeading}</h2>
-        <small>Not you? Click here to <a href="#" onClick={() => { setStep("email"); setGuest(null); setForm([]); setEmail(""); setSubmitted(false); setMessage(""); localStorage.removeItem("rsvp_guest"); const url = new URL(window.location.href); url.searchParams.delete("email"); window.history.replaceState({}, "", url); }}>enter a different email</a>.</small>
+        <small>Not you? Click here to <a href="#" onClick={() => { setStep("email"); setGuest(null); setForm([]); setEmail(""); setSubmitted(false); setMessage(""); localStorage.removeItem("rsvp_guest"); localStorage.removeItem("rsvp_email"); const url = new URL(window.location.href); url.searchParams.delete("email"); window.history.replaceState({}, "", url); }}>enter a different email</a>.</small>
         <form onSubmit={handleSubmit} className="rsvpForm">
           {form.map((g, i) => (
             <div key={i} className="rsvpGuestBlock">
@@ -264,7 +264,7 @@ export default function RSVPSection() {
         <h2 className="rsvpTitle">R.S.V.P.</h2>
         <div className="rsvpGuestBlock submitted">
           <p className="rsvpError">{error}</p>
-          <button onClick={() => { setStep("email"); setError(""); }} className="rsvpButton" style={{ marginTop: "0.5rem" }}>Enter a different email</button>
+          <button onClick={() => { setStep("email"); setError(""); setEmail(""); localStorage.removeItem("rsvp_guest"); localStorage.removeItem("rsvp_email"); }} className="rsvpButton" style={{ marginTop: "0.5rem" }}>Enter a different email</button>
         </div>
       </div>
     );

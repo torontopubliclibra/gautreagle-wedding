@@ -51,6 +51,7 @@ img {
 
 html {
   line-height: 1.15;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -133,6 +134,13 @@ h3 .small {
   display: block;
   font-size: 1rem;
   margin: 15px 0;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-family: var(--font-italic);
+  line-height: 1.5;
+  margin: 1rem auto;
 }
 
 hr {
@@ -219,7 +227,7 @@ section {
   border: solid var(--color-border) 3px;
   box-shadow: 5px 5px 5px rgba(43, 45, 60, 0.05), -5px -5px 5px rgba(43, 45, 60, 0.05), -5px 5px 5px rgba(43, 45, 60, 0.05), 5px -5px 5px rgba(43, 45, 60, 0.05);
   width: 85vw;
-  max-width: 1250px;
+  max-width: 1160px;
   margin: 0 auto 25px;
   padding: 2rem;
 }
@@ -255,6 +263,11 @@ section#protected {
     border-left: none;
     border-right: none;
   }
+}
+
+.order {
+  max-width: 950px;
+  margin: 0 auto;
 }
 
 .pigeons {
