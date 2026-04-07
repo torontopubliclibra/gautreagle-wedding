@@ -244,7 +244,7 @@ export default function RSVPSection() {
                     </label>
                   </div>
                   { guest.guests.length === 1 && (
-                    <><hr/><small>We aren&apos;t able to accommodate plus ones, but we really hope to have you and encourage you to mingle with our other beloved guests.</small></>
+                    <><hr/><small>Due to venue capacity, we aren&apos;t able to accommodate plus ones. We appreciate your understanding!</small></>
                   )}
                 </>
               )}

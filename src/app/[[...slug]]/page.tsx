@@ -107,6 +107,13 @@ export default function Home() {
     <>
       <Header onTitleClick={() => setTab("home")} />
       <nav className="tabs">
+        <button
+            className={`tab home ${tab === "home" ? " active" : ""}`}
+            onClick={() => setTab("home")}
+            type="button"
+          >
+            Home
+          </button>
           {tabs.map(t => (
           <button
             key={t.key}
@@ -123,7 +130,7 @@ export default function Home() {
         {tab === "home" && (
           <div>
             <h2 className="section-title">
-              Only {getDaysUntilWedding()} weddings to go!
+              Only {getDaysUntilWedding()} days to go!
             </h2>
             <p>We would love to have you at our wedding ceremony on <strong>Sunday, September 6th, 2026.</strong></p>
             <br />
@@ -143,6 +150,8 @@ export default function Home() {
             <p className="venue-details"><a href="https://truehistorybeer.com" target="_blank" rel="noopener noreferrer">True History Brewing</a>, Toronto, Ontario (<a onClick={() => setTab("directions")}>directions</a>)</p>
             <br />
             <p>The dress code is end-of-summer casual (think summer dresses and short sleeve button-downs). Ties and jackets are not required (but don&apos;t let us stop you if that&apos;s your sartorial preference). Wear or bring comfy shoes!</p>
+            <br />
+            <p>All drinks will be free, but please bring cash to tip our beloved bartenders. Your presence is present enough for us, but if you feel so inclined, we welcome you to donate to our honeymoon fund.</p>
             <br />
             <Image src="/taproom.webp" alt="True History Brewing taproom" width={800} height={500} className="venue-image" />
             <br /><hr /><br />
