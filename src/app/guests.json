@@ -1,7 +1,8 @@
 [
   {
     "email": ["dana.r.teagle@gmail.com", "sydneygautreau@gmail.com"],
-    "guests": ["Dana Teagle", "Sydney Gautreau"]
+    "guests": ["Dana Teagle", "Sydney Gautreau"],
+    "submitted": true
   },
   {
     "email": ["t.burnett@rogers.com", "pgautreau@rogers.com"],
@@ -89,7 +90,8 @@
   },
   {
     "email": ["rubyedallas@gmail.com", "christophervandoorn@gmail.com"],
-    "guests": ["Ruby Dallas", "Christopher van Doorn"]
+    "guests": ["Ruby Dallas", "Christopher van Doorn"],
+    "submitted": true
   },
   {
     "email": ["krothberger@gmail.com", "zachary.d.jones1@gmail.com"],
@@ -101,7 +103,8 @@
   },
   {
     "email": ["elliemoonyouknow@gmail.com"],
-    "guests": ["Ellie Moon"]
+    "guests": ["Ellie Moon"],
+    "submitted": true
   },
   {
     "email": ["danielscottbyrne@gmail.com"],
