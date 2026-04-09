@@ -151,7 +151,7 @@ export default function Home() {
             <br />
             <p>The dress code is end-of-summer casual (think summer dresses and short sleeve button-downs). Ties and jackets are not required (but don&apos;t let us stop you if that&apos;s your sartorial preference). Wear or bring comfy shoes!</p>
             <br />
-            <p>All drinks will be free, but please bring cash to tip our beloved bartenders. Your presence is present enough for us, but if you feel so inclined, we welcome you to donate to our honeymoon fund.</p>
+            <p>We&apos;ll be hosting an open bar, but please bring cash to tip our beloved bartenders. Your presence is present enough for us, but if you feel so inclined, we welcome you to donate to our honeymoon fund.</p>
             <br />
             <Image src="/taproom.webp" alt="True History Brewing taproom" width={800} height={500} className="venue-image" />
             <br /><hr /><br />
