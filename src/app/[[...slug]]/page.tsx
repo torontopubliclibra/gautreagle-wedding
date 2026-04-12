@@ -188,9 +188,9 @@ export default function Home() {
             <h2 className="section-title">
               The Weekend
             </h2>
-            <p>We know that many of you are travelling great distances to celebrate with us. To maximize the time we get to spend with you while you&apos;re here, we&apos;re organizing optional events on the Friday evening and Saturday afternoon for out-of-towners. These events are listed as part of your official RSVP so we can send an email with official details once they are finalized!</p>
+            <p>We know that many of you are travelling great distances to celebrate with us. To maximize our time together while you&apos;re here, we&apos;re organizing <strong>optional events on the Friday evening and Saturday afternoon for out-of-towners</strong>. These events are listed as part of your official RSVP so we can send an email with details once they are finalized!</p>
             <br />
-            <p>Although our <a onClick={() => setTab("wedding")}>wedding day</a> will be adults only, kids are very much welcome to both the Friday and Saturday events!</p>
+            <p>Although our <a onClick={() => setTab("wedding")}>wedding day</a> will be adults only, <strong>kids are very much welcome to both the Friday and Saturday events</strong>!</p>
             <br /><hr />
             <h3 id="friday">Friday, September 4th, 2026</h3>
             <p className="text-center">We&apos;re currently looking at booking a boat trip around the harbour. We&apos;re deciding between two companies so we will have details finalized in the next month or so. The tour will likely start around 7pm and last until 9:30–10. There will be a ticket cost associated with this activity of around $40 CAD.</p>
