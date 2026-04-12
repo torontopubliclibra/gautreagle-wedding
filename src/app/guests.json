@@ -120,7 +120,8 @@
   },
   {
     "email": ["jordandonovan7@gmail.com", "lornebocknek7@gmail.com"],
-    "guests": ["Jordan Donovan", "Lorne Bocknek"]
+    "guests": ["Jordan Donovan", "Lorne Bocknek"],
+    "submitted": true
   },
   {
     "email": ["raegan@me.com"],
