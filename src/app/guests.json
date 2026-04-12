@@ -6,7 +6,8 @@
   },
   {
     "email": ["t.burnett@rogers.com", "pgautreau@rogers.com"],
-    "guests": ["Tannis Burnett", "Pierre Gautreau"]
+    "guests": ["Tannis Burnett", "Pierre Gautreau"],
+    "submitted": true
   },
   {
     "email": ["helenteagle@icloud.com", "glendcoles@outlook.com"],
