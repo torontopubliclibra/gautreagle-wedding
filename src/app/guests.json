@@ -95,7 +95,8 @@
   },
   {
     "email": ["krothberger@gmail.com", "zachary.d.jones1@gmail.com"],
-    "guests": ["Kaitlin Rothberger", "Zak Jones"]
+    "guests": ["Kaitlin Rothberger", "Zak Jones"],
+    "submitted": true
   },
   {
     "email": ["l.lalich@gmail.com", "stamatovievy@gmail.com"],
