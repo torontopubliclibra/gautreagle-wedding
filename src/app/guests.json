@@ -23,7 +23,8 @@
   },
   {
     "email": ["nhebarry@icloud.com"],
-    "guests": ["Natasha Barry"]
+    "guests": ["Natasha Barry"],
+    "submitted": true
   },
   {
     "email": ["cegbarry@icloud.com"],
