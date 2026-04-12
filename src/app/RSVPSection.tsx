@@ -123,6 +123,12 @@ export default function RSVPSection() {
         });
         if (res.ok) {
           setSubmitted(true);
+          setGuest(null);
+          setForm([]);
+          setEmail("");
+          setMessage("");
+          localStorage.removeItem("rsvp_guest");
+          localStorage.removeItem("rsvp_email");
         } else {
           setMessage("There was a problem submitting your R.S.V.P. Please try again later.");
         }
