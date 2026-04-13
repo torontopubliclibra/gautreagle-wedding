@@ -152,7 +152,8 @@
   },
   {
     "email": ["jazzcook94@gmail.com"],
-    "guests": ["Jazz Cook"]
+    "guests": ["Jazz Cook"],
+    "submitted": true
   },
   {
     "email": ["jonathaz@mac.com", "dane@danemillerrealty.com"],
