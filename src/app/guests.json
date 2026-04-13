@@ -15,7 +15,8 @@
   },
   {
     "email": ["gemmateagle@gmail.com", "ben-holty@hotmail.co.uk"],
-    "guests": ["Gemma Teagle", "Ben Holt"]
+    "guests": ["Gemma Teagle", "Ben Holt"],
+    "submitted": true
   },
   {
     "email": ["arpople@me.com", "dfpj.barry@mac.com"],
