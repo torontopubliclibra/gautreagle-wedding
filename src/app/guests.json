@@ -11,7 +11,8 @@
   },
   {
     "email": ["helenteagle@icloud.com", "glendcoles@outlook.com"],
-    "guests": ["Helen Teagle", "Glen Coles"]
+    "guests": ["Helen Teagle", "Glen Coles"],
+    "submitted": true
   },
   {
     "email": ["gemmateagle@gmail.com", "ben-holty@hotmail.co.uk"],
@@ -62,7 +63,8 @@
   },
   {
     "email": ["jwelland93@gmail.com", "jpmoore93@outlook.com"],
-    "guests": ["Joe Welland", "Joel Moore"]
+    "guests": ["Joe Welland", "Joel Moore"],
+    "submitted": true
   },
   {
     "email": ["hubleym@gmail.com"],
@@ -105,7 +107,7 @@
   },
   {
     "email": ["l.lalich@gmail.com", "stamatovievy@gmail.com"],
-    "guests": ["Lana Lalich", "Ievy Stamatov"]
+    "guests": ["Leah Lalich", "Ievy Stamatov"]
   },
   {
     "email": ["elliemoonyouknow@gmail.com"],
