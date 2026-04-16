@@ -76,7 +76,8 @@
   },
   {
     "email": ["candicejmirwin@gmail.com"],
-    "guests": ["Candice Irwin"]
+    "guests": ["Candice Irwin"],
+    "submitted": true
   },
   {
     "email": ["ciaranbailey@gmail.com"],
@@ -93,7 +94,8 @@
   },
   {
     "email": ["john.maize@gmail.com", "tam.rayan@gmail.com"],
-    "guests": ["John Maize", "Tam Rayan"]
+    "guests": ["John Maize", "Tam Rayan"],
+    "submitted": true
   },
   {
     "email": ["rubyedallas@gmail.com", "christophervandoorn@gmail.com"],
@@ -107,7 +109,8 @@
   },
   {
     "email": ["l.lalich@gmail.com", "stamatovievy@gmail.com"],
-    "guests": ["Leah Lalich", "Ievy Stamatov"]
+    "guests": ["Leah Lalich", "Ievy Stamatov"],
+    "submitted": true
   },
   {
     "email": ["elliemoonyouknow@gmail.com"],
@@ -137,11 +140,13 @@
   },
   {
     "email": ["dahliclarke@gmail.com"],
-    "guests": ["Dahli Clarke-Partida"]
+    "guests": ["Dahli Clarke-Partida"],
+    "submitted": true
   },
   {
     "email": ["katasinkatharine@gmail.com"],
-    "guests": ["Katharine Murr"]
+    "guests": ["Katharine Murr"],
+    "submitted": true
   },
   {
     "email": ["julialittle108@gmail.com"],
@@ -172,5 +177,9 @@
   {
     "email": ["adam@truehistorybeer.com"],
     "guests": ["Adam Shier"]
+  },
+  {
+    "email": ["katinapollock@hotmail.com"],
+    "guests": ["Katina Pollock"]
   }
 ]
