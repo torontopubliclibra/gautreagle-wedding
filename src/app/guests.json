@@ -185,6 +185,7 @@
   },
   {
     "email": ["stonietto@gmail.com"],
-    "guests": ["Steph Tonietto"]
+    "guests": ["Steph Tonietto"],
+    "submitted": true
   }
 ]
