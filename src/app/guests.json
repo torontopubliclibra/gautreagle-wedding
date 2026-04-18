@@ -164,7 +164,8 @@
   },
   {
     "email": ["jonathaz@mac.com", "dane@danemillerrealty.com"],
-    "guests": ["Jonathan Zenz", "Dane Miller"]
+    "guests": ["Jonathan Zenz", "Dane Miller"],
+    "submitted": true
   },
   {
     "email": ["matthew@truehistorybeer.com", "12rswilliams@gmail.com"],
