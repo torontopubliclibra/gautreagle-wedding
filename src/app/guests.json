@@ -119,7 +119,8 @@
   },
   {
     "email": ["danielscottbyrne@gmail.com"],
-    "guests": ["Daniel Byrne", "Yu Wang"]
+    "guests": ["Daniel Byrne", "Yu Wang"],
+    "submitted": true
   },
   {
     "email": ["bowen416@gmail.com", "raqhellion@gmail.com"],
