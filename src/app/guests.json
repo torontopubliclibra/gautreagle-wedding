@@ -124,7 +124,8 @@
   },
   {
     "email": ["bowen416@gmail.com", "raqhellion@gmail.com"],
-    "guests": ["Ryan Bowen", "Raquel Aurini"]
+    "guests": ["Ryan Bowen", "Raquel Aurini"],
+    "submitted": true
   },
   {
     "email": ["jordandonovan7@gmail.com", "lornebocknek7@gmail.com"],
