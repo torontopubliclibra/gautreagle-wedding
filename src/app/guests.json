@@ -47,11 +47,13 @@
   },
   {
     "email": ["adam.e.slack@hotmail.co.uk"],
-    "guests": ["Adam Slack", "Kate Strange"]
+    "guests": ["Adam Slack", "Kate Strange"],
+    "submitted": true
   },
   {
     "email": ["ndininger@gmail.com"],
-    "guests": ["Nick Dininger", "Steph Dininger"]
+    "guests": ["Nick Dininger", "Steph Dininger"],
+    "submitted": true
   },
   {
     "email": ["nick.jl.plummer@gmail.com"],
