@@ -39,7 +39,8 @@
   },
   {
     "email": ["isfjord@shaw.ca"],
-    "guests": ["Donalee Isfjord", "Norm Isfjord"]
+    "guests": ["Donalee Isfjord", "Norm Isfjord"],
+    "submitted": true
   },
   {
     "email": ["katie.zied@gmail.com"],
