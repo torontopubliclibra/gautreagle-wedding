@@ -75,7 +75,8 @@
   },
   {
     "email": ["kendall.andison@gmail.com"],
-    "guests": ["Kendall Andison"]
+    "guests": ["Kendall Andison"],
+    "submitted": true
   },
   {
     "email": ["candicejmirwin@gmail.com"],
@@ -182,7 +183,8 @@
   },
   {
     "email": ["adam@truehistorybeer.com"],
-    "guests": ["Adam Shier"]
+    "guests": ["Adam Shier"],
+    "submitted": true
   },
   {
     "email": ["katinapollock@hotmail.com"],
