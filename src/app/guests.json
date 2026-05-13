@@ -84,7 +84,7 @@
     "submitted": true
   },
   {
-    "email": ["ciaranbailey@gmail.com"],
+    "email": ["ciaranbailey@gmail.com", "ciaranbailey6@gmail.com"],
     "guests": ["Ciarán Bailey"]
   },
   {
@@ -138,7 +138,8 @@
   },
   {
     "email": ["raegan@me.com"],
-    "guests": ["Raegan Swanson", "Jagjeet Singh"]
+    "guests": ["Raegan Swanson", "Jagjeet Singh"],
+    "submitted": true
   },
   {
     "email": ["tessadarcyelliott@gmail.com"],
