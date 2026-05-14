@@ -196,5 +196,17 @@
     "email": ["stonietto@gmail.com"],
     "guests": ["Steph Tonietto"],
     "submitted": true
+  },
+  {
+    "email": ["alexander.e.rsa@gmail.com"],
+    "guests": ["Alexander Rodriguez-Sta. Ana", "Kimmie Green"]
+  },
+  {
+    "email": ["kinleymochrie@gmail.com", "michaelroseberger@gmail.com"],
+    "guests": ["Kinley Mochrie", "Michael Berger"]
+  },
+  {
+    "email": ["harry.a.aldous@gmail.com"],
+    "guests": ["Harry Aldous", "Katelyn Hardy"]
   }
 ]
