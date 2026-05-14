@@ -143,7 +143,8 @@
   },
   {
     "email": ["tessadarcyelliott@gmail.com"],
-    "guests": ["Tessa Elliott", "Tom Aiken"]
+    "guests": ["Tessa Elliott", "Tom Aiken"],
+    "submitted": true
   },
   {
     "email": ["dahliclarke@gmail.com"],

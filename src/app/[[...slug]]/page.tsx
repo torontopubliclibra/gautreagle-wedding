@@ -136,7 +136,7 @@ export default function Home() {
             <br />
             <p>In the tabs above, you&apos;ll find all the information you need about <a onClick={() => setTab("wedding")}>our big day</a>, some <a onClick={() => setTab("weekend")}>optional events on the Friday and Saturday</a>, the <a onClick={() => setTab("directions")}>directions and accommodation recommendations</a>, and <a onClick={() => setTab("rsvp")}>our R.S.V.P. form</a>.</p>
             <br />
-            <p>Please fill out the form by <strong>May 15 at the latest.</strong></p>
+            <p>Please fill out the form by <strong>June 1 at the latest.</strong></p>
             <br />
             <Image src="/boat-2.jpeg" alt="Syd & Dana on a boat at sunset, with the CN Tower in the background" width={795} height={1200} className="syd-dana-image" />
           </div>
