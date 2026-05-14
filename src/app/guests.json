@@ -85,7 +85,8 @@
   },
   {
     "email": ["ciaranbailey@gmail.com", "ciaranbailey6@gmail.com"],
-    "guests": ["Ciarán Bailey"]
+    "guests": ["Ciarán Bailey"],
+    "submitted": true
   },
   {
     "email": ["juliasgreig@gmail.com"],
@@ -207,6 +208,7 @@
   },
   {
     "email": ["harry.a.aldous@gmail.com"],
-    "guests": ["Harry Aldous", "Katelyn Hardy"]
+    "guests": ["Harry Aldous", "Katelyn Hardy"],
+    "submitted": true
   }
 ]
