@@ -31,7 +31,8 @@
   },
   {
     "email": ["cegbarry@icloud.com"],
-    "guests": ["Caitlin Barry"]
+    "guests": ["Caitlin Barry"],
+    "submitted": true
   },
   {
     "email": ["hannahyeates06@gmail.com", "liampyeates@gmail.com"],
@@ -58,7 +59,8 @@
   },
   {
     "email": ["nick.jl.plummer@gmail.com"],
-    "guests": ["Nick Plummer"]
+    "guests": ["Nick Plummer"],
+    "submitted": true
   },
   {
     "email": ["liz.went@gmail.com"],
@@ -201,7 +203,8 @@
   },
   {
     "email": ["alexander.e.rsa@gmail.com"],
-    "guests": ["Alexander Rodriguez-Sta. Ana", "Kimmie Green"]
+    "guests": ["Alexander Rodriguez-Sta. Ana", "Kimmie Green"],
+    "submitted": true
   },
   {
     "email": ["kinleymochrie@gmail.com", "michaelroseberger@gmail.com"],
