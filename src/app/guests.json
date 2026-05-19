@@ -36,7 +36,8 @@
   },
   {
     "email": ["hannahyeates06@gmail.com", "liampyeates@gmail.com"],
-    "guests": ["Hannah Yeates", "Liam Yeates"]
+    "guests": ["Hannah Yeates", "Liam Yeates"],
+    "submitted": true
   },
   {
     "email": ["isfjord@shaw.ca"],
@@ -45,7 +46,8 @@
   },
   {
     "email": ["katie.zied@gmail.com"],
-    "guests": ["Katie Zied"]
+    "guests": ["Katie Zied"],
+    "submitted": true
   },
   {
     "email": ["adam.e.slack@hotmail.co.uk"],
@@ -92,7 +94,8 @@
   },
   {
     "email": ["juliasgreig@gmail.com"],
-    "guests": ["Julia Greig"]
+    "guests": ["Julia Greig"],
+    "submitted": true
   },
   {
     "email": ["xogracelee@gmail.com"],
@@ -208,7 +211,8 @@
   },
   {
     "email": ["kinleymochrie@gmail.com", "michaelroseberger@gmail.com"],
-    "guests": ["Kinley Mochrie", "Michael Berger"]
+    "guests": ["Kinley Mochrie", "Michael Berger"],
+    "submitted": true
   },
   {
     "email": ["harry.a.aldous@gmail.com"],
