@@ -197,7 +197,8 @@
   },
   {
     "email": ["katinapollock@hotmail.com"],
-    "guests": ["Katina Pollock"]
+    "guests": ["Katina Pollock"],
+    "submitted": true
   },
   {
     "email": ["stonietto@gmail.com"],
