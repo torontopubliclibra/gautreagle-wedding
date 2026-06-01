@@ -1,223 +1,448 @@
 [
   {
-    "email": ["dana.r.teagle@gmail.com", "sydneygautreau@gmail.com"],
-    "guests": ["Dana Teagle", "Sydney Gautreau"],
+    "email": [
+      "dana.r.teagle@gmail.com",
+      "sydneygautreau@gmail.com"
+    ],
+    "guests": [
+      "Dana Teagle",
+      "Sydney Gautreau"
+    ],
     "submitted": true
   },
   {
-    "email": ["t.burnett@rogers.com", "pgautreau@rogers.com"],
-    "guests": ["Tannis Burnett", "Pierre Gautreau"],
+    "email": [
+      "t.burnett@rogers.com",
+      "pgautreau@rogers.com"
+    ],
+    "guests": [
+      "Tannis Burnett",
+      "Pierre Gautreau"
+    ],
     "submitted": true
   },
   {
-    "email": ["helenteagle@icloud.com", "glendcoles@outlook.com"],
-    "guests": ["Helen Teagle", "Glen Coles"],
+    "email": [
+      "helenteagle@icloud.com",
+      "glendcoles@outlook.com"
+    ],
+    "guests": [
+      "Helen Teagle",
+      "Glen Coles"
+    ],
     "submitted": true
   },
   {
-    "email": ["gemmateagle@gmail.com", "ben-holty@hotmail.co.uk"],
-    "guests": ["Gemma Teagle", "Ben Holt"],
+    "email": [
+      "gemmateagle@gmail.com",
+      "ben-holty@hotmail.co.uk"
+    ],
+    "guests": [
+      "Gemma Teagle",
+      "Ben Holt"
+    ],
     "submitted": true
   },
   {
-    "email": ["arpople@me.com", "dfpj.barry@mac.com"],
-    "guests": ["Alison Pople", "Denis Barry"],
+    "email": [
+      "arpople@me.com",
+      "dfpj.barry@mac.com"
+    ],
+    "guests": [
+      "Alison Pople",
+      "Denis Barry"
+    ],
     "submitted": true
   },
   {
-    "email": ["nhebarry@icloud.com"],
-    "guests": ["Natasha Barry"],
+    "email": [
+      "nhebarry@icloud.com"
+    ],
+    "guests": [
+      "Natasha Barry"
+    ],
     "submitted": true
   },
   {
-    "email": ["cegbarry@icloud.com"],
-    "guests": ["Caitlin Barry"],
+    "email": [
+      "cegbarry@icloud.com"
+    ],
+    "guests": [
+      "Caitlin Barry"
+    ],
     "submitted": true
   },
   {
-    "email": ["hannahyeates06@gmail.com", "liampyeates@gmail.com"],
-    "guests": ["Hannah Yeates", "Liam Yeates"],
+    "email": [
+      "hannahyeates06@gmail.com",
+      "liampyeates@gmail.com"
+    ],
+    "guests": [
+      "Hannah Yeates",
+      "Liam Yeates"
+    ],
     "submitted": true
   },
   {
-    "email": ["isfjord@shaw.ca"],
-    "guests": ["Donalee Isfjord", "Norm Isfjord"],
+    "email": [
+      "isfjord@shaw.ca"
+    ],
+    "guests": [
+      "Donalee Isfjord",
+      "Norm Isfjord"
+    ],
     "submitted": true
   },
   {
-    "email": ["katie.zied@gmail.com"],
-    "guests": ["Katie Zied"],
+    "email": [
+      "katie.zied@gmail.com"
+    ],
+    "guests": [
+      "Katie Zied"
+    ],
     "submitted": true
   },
   {
-    "email": ["adam.e.slack@hotmail.co.uk"],
-    "guests": ["Adam Slack", "Kate Strange"],
+    "email": [
+      "adam.e.slack@hotmail.co.uk"
+    ],
+    "guests": [
+      "Adam Slack",
+      "Kate Strange"
+    ],
     "submitted": true
   },
   {
-    "email": ["ndininger@gmail.com"],
-    "guests": ["Nick Dininger", "Steph Dininger"],
+    "email": [
+      "ndininger@gmail.com"
+    ],
+    "guests": [
+      "Nick Dininger",
+      "Steph Dininger"
+    ],
     "submitted": true
   },
   {
-    "email": ["nick.jl.plummer@gmail.com"],
-    "guests": ["Nick Plummer"],
+    "email": [
+      "nick.jl.plummer@gmail.com"
+    ],
+    "guests": [
+      "Nick Plummer"
+    ],
     "submitted": true
   },
   {
-    "email": ["liz.went@gmail.com"],
-    "guests": ["Liz Went", "Ciarán Dickinson"]
+    "email": [
+      "liz.went@gmail.com"
+    ],
+    "guests": [
+      "Liz Went",
+      "Ciarán Dickinson"
+    ]
   },
   {
-    "email": ["jwelland93@gmail.com", "jpmoore93@outlook.com"],
-    "guests": ["Joe Welland", "Joel Moore"],
+    "email": [
+      "jwelland93@gmail.com",
+      "jpmoore93@outlook.com"
+    ],
+    "guests": [
+      "Joe Welland",
+      "Joel Moore"
+    ],
     "submitted": true
   },
   {
-    "email": ["hubleym@gmail.com"],
-    "guests": ["Meg Hubley", "Zach Faye"]
+    "email": [
+      "hubleym@gmail.com"
+    ],
+    "guests": [
+      "Meg Hubley",
+      "Zach Faye"
+    ]
   },
   {
-    "email": ["kendall.andison@gmail.com"],
-    "guests": ["Kendall Andison"],
+    "email": [
+      "kendall.andison@gmail.com"
+    ],
+    "guests": [
+      "Kendall Andison"
+    ],
     "submitted": true
   },
   {
-    "email": ["candicejmirwin@gmail.com"],
-    "guests": ["Candice Irwin"],
+    "email": [
+      "candicejmirwin@gmail.com"
+    ],
+    "guests": [
+      "Candice Irwin"
+    ],
     "submitted": true
   },
   {
-    "email": ["ciaranbailey@gmail.com", "ciaranbailey6@gmail.com"],
-    "guests": ["Ciarán Bailey"],
+    "email": [
+      "ciaranbailey@gmail.com",
+      "ciaranbailey6@gmail.com"
+    ],
+    "guests": [
+      "Ciarán Bailey"
+    ],
     "submitted": true
   },
   {
-    "email": ["juliasgreig@gmail.com"],
-    "guests": ["Julia Greig"],
+    "email": [
+      "juliasgreig@gmail.com"
+    ],
+    "guests": [
+      "Julia Greig"
+    ],
     "submitted": true
   },
   {
-    "email": ["xogracelee@gmail.com"],
-    "guests": ["Grace Lee"],
+    "email": [
+      "xogracelee@gmail.com"
+    ],
+    "guests": [
+      "Grace Lee"
+    ],
     "submitted": true
   },
   {
-    "email": ["john.maize@gmail.com", "tam.rayan@gmail.com"],
-    "guests": ["John Maize", "Tam Rayan"],
+    "email": [
+      "john.maize@gmail.com",
+      "tam.rayan@gmail.com"
+    ],
+    "guests": [
+      "John Maize",
+      "Tam Rayan"
+    ],
     "submitted": true
   },
   {
-    "email": ["rubyedallas@gmail.com", "christophervandoorn@gmail.com"],
-    "guests": ["Ruby Dallas", "Christopher van Doorn"],
+    "email": [
+      "rubyedallas@gmail.com",
+      "christophervandoorn@gmail.com"
+    ],
+    "guests": [
+      "Ruby Dallas",
+      "Christopher van Doorn"
+    ],
     "submitted": true
   },
   {
-    "email": ["krothberger@gmail.com", "zachary.d.jones1@gmail.com"],
-    "guests": ["Kaitlin Rothberger", "Zak Jones"],
+    "email": [
+      "krothberger@gmail.com",
+      "zachary.d.jones1@gmail.com"
+    ],
+    "guests": [
+      "Kaitlin Rothberger",
+      "Zak Jones"
+    ],
     "submitted": true
   },
   {
-    "email": ["l.lalich@gmail.com", "stamatovievy@gmail.com"],
-    "guests": ["Leah Lalich", "Ievy Stamatov"],
+    "email": [
+      "l.lalich@gmail.com",
+      "stamatovievy@gmail.com"
+    ],
+    "guests": [
+      "Leah Lalich",
+      "Ievy Stamatov"
+    ],
     "submitted": true
   },
   {
-    "email": ["elliemoonyouknow@gmail.com"],
-    "guests": ["Ellie Moon"],
+    "email": [
+      "elliemoonyouknow@gmail.com"
+    ],
+    "guests": [
+      "Ellie Moon"
+    ],
     "submitted": true
   },
   {
-    "email": ["danielscottbyrne@gmail.com"],
-    "guests": ["Daniel Byrne", "Yu Wang"],
+    "email": [
+      "danielscottbyrne@gmail.com"
+    ],
+    "guests": [
+      "Daniel Byrne",
+      "Yu Wang"
+    ],
     "submitted": true
   },
   {
-    "email": ["bowen416@gmail.com", "raqhellion@gmail.com"],
-    "guests": ["Ryan Bowen", "Raquel Aurini"],
+    "email": [
+      "bowen416@gmail.com",
+      "raqhellion@gmail.com"
+    ],
+    "guests": [
+      "Ryan Bowen",
+      "Raquel Aurini"
+    ],
     "submitted": true
   },
   {
-    "email": ["jordandonovan7@gmail.com", "lornebocknek7@gmail.com"],
-    "guests": ["Jordan Donovan", "Lorne Bocknek"],
+    "email": [
+      "jordandonovan7@gmail.com",
+      "lornebocknek7@gmail.com"
+    ],
+    "guests": [
+      "Jordan Donovan",
+      "Lorne Bocknek"
+    ],
     "submitted": true
   },
   {
-    "email": ["raegan@me.com"],
-    "guests": ["Raegan Swanson", "Jagjeet Singh"],
+    "email": [
+      "raegan@me.com"
+    ],
+    "guests": [
+      "Raegan Swanson",
+      "Jagjeet Singh"
+    ],
     "submitted": true
   },
   {
-    "email": ["tessadarcyelliott@gmail.com"],
-    "guests": ["Tessa Elliott", "Tom Aiken"],
+    "email": [
+      "tessadarcyelliott@gmail.com"
+    ],
+    "guests": [
+      "Tessa Elliott",
+      "Tom Aiken"
+    ],
     "submitted": true
   },
   {
-    "email": ["dahliclarke@gmail.com"],
-    "guests": ["Dahli Clarke-Partida"],
+    "email": [
+      "dahliclarke@gmail.com"
+    ],
+    "guests": [
+      "Dahli Clarke-Partida"
+    ],
     "submitted": true
   },
   {
-    "email": ["katasinkatharine@gmail.com"],
-    "guests": ["Katharine Murr"],
+    "email": [
+      "katasinkatharine@gmail.com"
+    ],
+    "guests": [
+      "Katharine Murr"
+    ],
     "submitted": true
   },
   {
-    "email": ["julialittle108@gmail.com"],
-    "guests": ["Julia Little"],
+    "email": [
+      "julialittle108@gmail.com"
+    ],
+    "guests": [
+      "Julia Little"
+    ],
     "submitted": true
   },
   {
-    "email": ["na.o0o.mi.sound@gmail.com", "naomimccb@pm.me"],
-    "guests": ["Naomi McCarroll-Butler"],
+    "email": [
+      "na.o0o.mi.sound@gmail.com",
+      "naomimccb@pm.me"
+    ],
+    "guests": [
+      "Naomi McCarroll-Butler"
+    ],
     "submitted": true
   },
   {
-    "email": ["jazzcook94@gmail.com"],
-    "guests": ["Jazz Cook"],
+    "email": [
+      "jazzcook94@gmail.com"
+    ],
+    "guests": [
+      "Jazz Cook"
+    ],
     "submitted": true
   },
   {
-    "email": ["jonathaz@mac.com", "dane@danemillerrealty.com"],
-    "guests": ["Jonathan Zenz", "Dane Miller"],
+    "email": [
+      "jonathaz@mac.com",
+      "dane@danemillerrealty.com"
+    ],
+    "guests": [
+      "Jonathan Zenz",
+      "Dane Miller"
+    ],
     "submitted": true
   },
   {
-    "email": ["matthew@truehistorybeer.com", "12rswilliams@gmail.com"],
-    "guests": ["Matthew Tompkins", "Riley Williams"]
+    "email": [
+      "matthew@truehistorybeer.com",
+      "12rswilliams@gmail.com"
+    ],
+    "guests": [
+      "Matthew Tompkins",
+      "Riley Williams"
+    ]
   },
   {
-    "email": ["mallory.bey@gmail.com"],
-    "guests": ["Allen Meredith", "Mallory Bey"]
+    "email": [
+      "mallory.bey@gmail.com"
+    ],
+    "guests": [
+      "Allen Meredith",
+      "Mallory Bey"
+    ]
   },
   {
-    "email": ["adam@truehistorybeer.com"],
-    "guests": ["Adam Shier"],
+    "email": [
+      "adam@truehistorybeer.com"
+    ],
+    "guests": [
+      "Adam Shier"
+    ],
     "submitted": true
   },
   {
-    "email": ["katinapollock@hotmail.com"],
-    "guests": ["Katina Pollock"],
+    "email": [
+      "katinapollock@hotmail.com"
+    ],
+    "guests": [
+      "Katina Pollock"
+    ],
     "submitted": true
   },
   {
-    "email": ["stonietto@gmail.com"],
-    "guests": ["Steph Tonietto"],
+    "email": [
+      "stonietto@gmail.com"
+    ],
+    "guests": [
+      "Steph Tonietto"
+    ],
     "submitted": true
   },
   {
-    "email": ["alexander.e.rsa@gmail.com"],
-    "guests": ["Alexander Rodriguez-Sta. Ana", "Kimmie Green"],
+    "email": [
+      "alexander.e.rsa@gmail.com"
+    ],
+    "guests": [
+      "Alexander Rodriguez-Sta. Ana",
+      "Kimmie Green"
+    ],
     "submitted": true
   },
   {
-    "email": ["kinleymochrie@gmail.com", "michaelroseberger@gmail.com"],
-    "guests": ["Kinley Mochrie", "Michael Berger"],
+    "email": [
+      "kinleymochrie@gmail.com",
+      "michaelroseberger@gmail.com"
+    ],
+    "guests": [
+      "Kinley Mochrie",
+      "Michael Berger"
+    ],
     "submitted": true
   },
   {
-    "email": ["harry.a.aldous@gmail.com"],
-    "guests": ["Harry Aldous", "Katelyn Hardy"],
+    "email": [
+      "harry.a.aldous@gmail.com"
+    ],
+    "guests": [
+      "Harry Aldous",
+      "Katelyn Hardy"
+    ],
     "submitted": true
   }
 ]
