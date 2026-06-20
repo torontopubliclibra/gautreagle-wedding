@@ -148,7 +148,7 @@ export default function Home() {
               <br />
               <p>The dress code is end-of-summer casual (think summer dresses and short sleeve button-downs). Ties and jackets are not required (but don&apos;t let us stop you if that&apos;s your sartorial preference). Wear or bring comfy shoes!</p>
               <br />
-              <p>All drinks will be free, but please bring cash to tip our beloved bartenders. Also, your presence is present enough for us, but if you feel so inclined, we welcome you to donate to our honeymoon fund.</p>
+              <p>All drinks will be free, but please bring cash to tip our beloved bartenders. Also, your presence is present enough for us, but if you feel so inclined, we welcome you to donate to our honeymoon fund. If you would like to do so in advance, you can send an e-transfer to dana.r.teagle@gmail.com or <a href="https://www.paypal.com/paypalme/torontopubliclibra/" target="_blank" rel="noopener noreferrer">donate via PayPal</a>.</p>
               <br />
               <Image src="/taproom.webp" alt="True History Brewing taproom" width={800} height={500} className="venue-image" />
               <br /><hr /><br />
@@ -190,7 +190,7 @@ export default function Home() {
               <p>Although our <a onClick={() => setTab("wedding")}>wedding day</a> will be adults only, <strong>kids are very much welcome to both the Friday and Saturday events</strong>!</p>
               <br /><hr />
               <h3 id="friday">Friday, September 4th, 2026</h3>
-              <p className="text-center">We will be taking the sunset sail aboard the Tall Ship Kajama! For anyone who hadn&apos;t already RSVP&apos;d for the friday and would like to join us, send us a message and we will send you the booking link.</p>
+              <p className="text-center">We will be taking the sunset sail aboard the Tall Ship Kajama! For anyone who hadn&apos;t already RSVP&apos;d for the friday and would like to join us, <a href="mailto:dana@torontopubliclibra.com">send us a message</a> and we will send you the booking link.</p>
               <br /><hr />
               <h3 id="saturday">Saturday, September 5th, 2026</h3>
               <p className="text-center">Syd&apos;s parents, Tannis and Pierre, have graciously agreed to host an afternoon snacks-and-drinks social in their beautiful backyard. This will likely start around 2pm.</p>
